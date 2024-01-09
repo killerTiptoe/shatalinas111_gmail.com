@@ -1,0 +1,107 @@
+body {
+  text-align: justify;
+  background-color: #b5a789;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: small;
+  width: 800px;
+  vertical-align: top;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px auto;
+  font-weight: bold;
+}
+
+header#navbar {
+  display: block;
+  background-color: #b5a789;
+  margin: 0px 20px;
+}
+
+#table {
+  display: table;
+  border-spacing: 10px 25px;
+  line-height: 1em;
+  text-align: center;
+  background: url(/images/back.jpg);
+  margin: auto;
+}
+
+article .tableRow {
+  display: table-row;
+}
+
+aside#sidebar_left {
+  display: table-cell;
+  font-size: 155%;
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+aside#sidebar_right {
+  display: table-cell;
+  font-size: 155%;
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.month {
+  display: table-cell;
+  height: 150px;
+  width: 150px;
+  font-size: 80%;
+  font-weight: 900;
+  color: #4169e1;
+}
+
+footer {
+  background-color: #b5a789;
+  color: #efe5d0;
+  text-align: center;
+  padding: 10px;
+  font-size: 80%;
+  font-weight: 100;
+  margin: 0px 20px;
+}
+
+.com {
+  margin: 0px;
+  color: black;
+  letter-spacing: 0.5em;
+}
+
+span {
+  animation: color-change 2s infinite;
+  text-transform: capitalize;
+  letter-spacing: 1em;
+  text-shadow: 2px 2px 5px;
+}
+
+@keyframes color-change {
+  0% {
+    color: blue;
+  }
+  25% {
+    color: gold;
+  }
+  50% {
+    color: green;
+  }
+  100% {
+    color: blue;
+  }
+}
+
+th:hover {
+  background-color: #777777;
+}
+.weekend {
+  background-color: red;
+  cursor: cell;
+  /* потом, при добавлении ссылок к праздникам в календаре, курсор сделаем со значением sell */
+}
+th {
+  border-radius: 50%;
+  cursor: not-allowed;
+}

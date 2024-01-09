@@ -1,0 +1,157 @@
+body {
+  background-color: #b5a789;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: small;
+  max-width: 1000px;
+  text-align: justify;
+  margin: 0px auto;
+}
+
+header {
+  background-color: #675c47;
+  margin: 0px;
+  height: 108px;
+  margin: 10px 10px 0px 10px;
+}
+
+img#position {
+  float: right;
+}
+
+div#table {
+  display: table;
+  border-spacing: 10px;
+}
+
+div#tableRow {
+  display: table-row;
+}
+
+#main {
+  display: table-cell;
+  background: #efe5d0 url(images/background.gif) top left;
+  font-size: 105%;
+  padding: 15px;
+  vertical-align: left;
+  width: 60%;
+}
+
+#drinks {
+  display: table-cell;
+  background-color: #efe5d0;
+  min-width: 180px;
+  padding: 15px;
+  vertical-align: top;
+  text-align: left;
+}
+
+aside {
+  display: table-cell;
+  background: #efe5d0 url(images/background.gif) bottom right;
+  font-size: 105%;
+  padding: 15px;
+  vertical-align: top;
+  min-width: 150px;
+}
+
+footer {
+  background-color: #675c47;
+  color: #efe5d0;
+  text-align: center;
+  padding: 15px;
+  font-size: 90%;
+  margin: 0px 10px 10px 10px;
+}
+
+h1 {
+  font-size: 120%;
+  color: #954b4b;
+}
+
+.beanheading {
+  text-align: center;
+  line-height: 1.8em;
+}
+
+a:link {
+  color: #b76666;
+  text-decoration: none;
+  border-bottom: thin dotted #b76666;
+}
+
+a:visited {
+  color: #675c47;
+  text-decoration: none;
+  border-bottom: thin dotted #675c47;
+}
+
+#award {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  right: 50%;
+  margin: auto;
+}
+
+#coupon {
+  position: fixed;
+  top: 20px;
+  left: -10px;
+  margin: auto;
+  border: none;
+}
+
+#coupon a,
+img {
+  border: none;
+}
+
+a:link {
+  border-bottom: none;
+}
+
+.changecolor {
+  animation: color-change 3s infinite;
+}
+@keyframes color-change {
+  0% {
+    color: blue;
+  }
+  25% {
+    color: red;
+  }
+  50% {
+    color: green;
+  }
+  100% {
+    color: blue;
+  }
+}
+
+nav {
+  background-color: #efe5d0;
+  margin: 10px 10px 0px 10px;
+}
+nav ul {
+  margin: 0px;
+  list-style-type: none;
+  padding: 5px 0px 5px 0px;
+}
+nav ul li {
+  display: inline;
+  padding: 5px 10px 5px 10px;
+}
+nav ul li a:link,
+nav ul li a:visited {
+  color: #954b4b;
+  border-bottom: none;
+  font-weight: normal;
+
+  /*
+	text-shadow: 1px 1px 3px #e2c2c2; 
+	text-transform: uppercase;
+*/
+}
+nav ul li.selected {
+  background-color: #c8b99c;
+}
